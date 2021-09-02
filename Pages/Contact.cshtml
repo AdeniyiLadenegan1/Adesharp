@@ -1,0 +1,104 @@
+﻿@page
+@model Adesharp.Pages.ContactModel
+@{
+}
+
+
+
+
+<section class="contact" id="contact">
+
+    <div class="container min-vh-100">
+
+        <div class="row justify-content-center" data-aos="fade-up">
+
+            <h1 class="heading"><span> Contact </span> us <span> right here </span> So much to learn! </h1>
+            <form method="Post" class="col-md-10">
+
+
+
+                <div class="inputBox">
+                    <input type="text" asp-for="contact.fname" placeholder="First Name">
+                    <input type="text" asp-for="contact.lname" placeholder="Last Name">
+                    <input type="text" asp-for="contact.phone" placeholder="Phone">
+                    <input type="email" asp-for="contact.email" placeholder="Enter email">
+                    <input type="text" asp-for="contact.subject" placeholder="Subject">
+                    <input type="text" asp-for="contact.message" id="textplace" cols="30" rows="10" placeholder="message (optional)">
+                    <input type="submit" name="" id="" value="Send Message">
+
+
+                    <div class="scrollBox">
+
+                        <select name="" id="">
+                            <option value="disabled selected">REPORT AN EMERGENCY</option>
+                            <option value="FIRE">FIRE</option>
+                            <option value="STORM">STORM</option>
+                            <option value="EARTHQUAKE">EARTHQUAKE</option>
+                            <option value="ANIMAL ATTACK">ANIMAL ATTACK</option>
+                            <option value="VOLCANIC ERUPTION">VOLCANIC ERUPTION</option>
+                            <option value="THUNDER STRIKE">THUNDER STRIKE</option>
+                            <option value="ELECTROCUTION">ELECTROCUTION</option>
+                            <option value="MAJOR TRANSPORT ACCIDENT">MAJOR TRANSPORT ACCIDENT</option>
+                        </select>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="home" id="home">
+
+    <div class="container">
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+            <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                <img src="./images/ff20.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                <h1><span> At any time </span> when you need to talk to someone <span> Contact us </span> IMMEDIATELY!</h1>
+                <h3>Established 1722, We have got the experience.</h3>
+            </div>
+
+        </div>
+
+
+        <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+            <h1><span>Here to serve you </span> and give you the best service available. <span> FireFighter world! </span> COURAGE in the line of FIRE! </h1>
+            <a href="#"> <btn class="btn">Get Educated</btn> </a>
+        </div>
+
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+            <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                <img src="./images/ff9.jpg" alt="" data-aos="fade-left">
+            </div>
+
+        </div>
+    </div>
+</section> 
+
+          
+
+
+                <!--home sec starts-->
+                <!--jquery-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+                <!--aos js function-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+
+                <!--Js-->
+                <script src="new.js"></script>
+
+
+

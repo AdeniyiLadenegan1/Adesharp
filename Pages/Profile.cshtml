@@ -1,0 +1,91 @@
+﻿@page
+@model Adesharp.Pages.ProfileModel
+@{
+}
+
+
+
+<section class="home" id="home">
+
+    <div class="container">
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+
+            <div id="personal">
+                <h1>Hello @Model.fname Welcome to your Profile</h1>
+                <h3>Personal Details </h3>
+                <hr />
+
+                <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                    <img src="./images/pro2.jpg" alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <h1><span>Comrade @Model.fname @Model.lname, </span>  <span>This is your</span> Profile!</h1>
+                    <h1><b>Here is your Email; </b> @Model.email </h1>
+                    <a class="btn btn-success" href="/Logout1"> Log out </a>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-6 pl-md-5 content" data-aos="zoom-in">
+                <h1><span>There are </span> so <span> many things </span>to learn!</h1>
+
+            </div>
+        </div>
+</section>
+
+
+
+
+<section class="home" id="home">
+
+    <div class="container">
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+            <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                <img src="./images/pro3.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 pl-md-5 content" data-aos="fade-right">
+                <h1><span>Thank you </span> for <span> your </span>Great service!</h1>
+
+
+
+                <a class="btn btn-success" asp-page="\Fire">More info  </a>
+            </div>
+
+        </div>
+             <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+
+    </div>
+
+
+    <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+        <h1><span>This is your</span> destiny <span> A Courageous and Brave </span>Firefighter!</h1>
+
+     </div>  
+    </div>
+
+</section>
+
+<!--home sec starts-->
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--aos js function-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+<!--Js-->
+<script src="site.js"></script>
+
+
+

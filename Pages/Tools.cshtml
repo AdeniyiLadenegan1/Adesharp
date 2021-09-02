@@ -1,0 +1,161 @@
+﻿@page
+@model Adesharp.Pages.ToolsModel
+@{
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+<body>
+
+
+
+    <section class="tool" id="tool">
+
+        <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+               
+
+                @{ string picName = "a";}
+
+                @foreach (var item in Model.Tools)
+                {
+
+
+                    <div id="tool">
+                        @{picName = item.equipment + ".jpg";}
+
+                        <div id="imgdiv" data-aos="fade-left">
+                            <img src="images/@picName" alt="" />
+                        </div>
+
+                        <div id="textdiv" data-aos="fade-right">
+                            <h1>@item.equipment</h1>
+                            <h2>@item.sizes</h2>
+                            <h1>@item.model</h1>
+                            <h1>@item.price</h1>
+
+                            <p>@item.description</p>
+                            <p><b>Description: @item.description</b></p>
+                        </div>
+
+                        <div id="btndiv" data-aos="zoom-in">
+                          
+                            <a class="btn btn-success" href=@item.website>Buy Now</a>
+                        </div>
+
+                    </div>
+
+                }
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="tools" id="tools">
+
+        <div class="container">
+
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-left">
+                    <img src="./images/ff13.jpg" alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-right">
+                    <h1><span>FIRE!</span> Beautiful <span>but DANGEROUS</span>Let us handle it!</h1>
+                    <h3>Established 1722, We have got the experience.</h3>
+                    <a href="#"> <btn class="btn">Get Educated</btn> </a>
+                </div>
+            </div>
+
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+                <div class="col-md-6 pl-md-5 content" data-aos="zoom-in">
+                    <h1><span>With our!</span> Years of experience, you are in safe hands with us <span>Your health and safety</span> Our priority!</h1>
+                    <h3>Established 1722, We have got the experience.</h3>
+                    <a href="#"> <btn class="btn">Report an Emergency</btn> </a>
+                </div>
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-right">
+                    <img src="./images/hose.jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-right">
+                    <img src="./images/hat.jpg" alt="">
+                </div>
+
+
+                <div class="col-md-6 pl-md-5 content" data-aos="zoom-in">
+                    <h1><span>With our!</span> Years of experience, you are in safe hands with us <span>Your health and safety</span> Our priority!</h1>
+                    <h3>Established 1722, We have got the experience.</h3>
+                    <a href="#"> <btn class="btn">Report an Emergency</btn> </a>
+                </div>
+
+            </div>
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+
+
+                <div class="col-md-6 pl-md-5 content" data-aos="zoom-in">
+                    <h1><span>With our!</span> Years of experience, you are in safe hands with us <span>Your health and safety</span> Our priority!</h1>
+                    <h3>Established 1722, We have got the experience.</h3>
+                    <a href="#"> <btn class="btn">Report an Emergency</btn> </a>
+                </div>
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-right">
+                    <img src="./images/ladder.jpg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-right">
+                    <img src="./images/uniform.jpg" alt="">
+                </div>
+
+
+                <div class="col-md-6 pl-md-5 content" data-aos="zoom-in">
+                    <h1><span>With our!</span> Years of experience, you are in safe hands with us <span>Your health and safety</span> Our priority!</h1>
+                    <h3>Established 1722, We have got the experience.</h3>
+                    <a href="#"> <btn class="btn">Report an Emergency</btn> </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!--home sec starts-->
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--aos js function-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+    <!--Js-->
+    <script src="site.js"></script>
+
+
+
+
+</body>
+
+

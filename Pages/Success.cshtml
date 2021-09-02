@@ -1,0 +1,74 @@
+﻿@page
+@model Adesharp.Pages.SuccessModel
+@{
+}
+
+
+<section class="home" id="home">
+
+    <div class="container">
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+            <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                <img src="./images/ff1.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                <h1><span>Congratulations @Model.fname,</span> @Model.lname, <span>You have successfully</span>Enrolled!</h1>
+
+                <h3> Here are your details. If you have entered wrongly, please make corrections.</h3>
+                <div id="success">
+                    <p><b>Your Full Name: </b> @Model.fname @Model.lname </p>
+                    <hr />
+                    <p><b>Phone number: </b> @Model.phone </p>
+                    <hr />
+                    <p><b>Email: </b> @Model.email </p>
+                    <hr />
+                    <p><b>Gender: </b> @Model.gender </p>
+                    <hr />
+                    <p><b>startMonth: </b> @Model.startMonth </p>
+                    <hr />
+                    <p><b>Province: </b> @Model.province </p>
+                    <hr />
+                    <p><b>Address: </b> @Model.address </p>
+                    <hr />
+                    <p><b>Motivation: </b> @Model.motivation </p>
+                </div>
+                <a class= "btn btn-success" asp-page="\Fire">More info  </a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+<!--home sec starts-->
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--aos js function-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+<!--Js-->
+<script src="site.js"></script>
+
+
+

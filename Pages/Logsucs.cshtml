@@ -1,0 +1,65 @@
+﻿@page
+@model Adesharp.Pages.LogsucsModel
+@{
+}
+
+
+<section class="home" id="home">
+
+    <div class="container">
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+            <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                <img src="./images/ff1.jpg" alt="">
+            </div>
+
+            <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                <h1><span>Thank you @Model.fname,</span> @Model.lname, <span>Your message is sent and received </span> we will be in touch immediately !</h1>
+
+                <div id="logsucs">
+                                       
+                    <p><b>Phone number: </b> @Model.phone </p>
+                    <hr />
+                    <p><b>Email: </b> @Model.email </p>
+                    <hr />
+                    <p><b>Gender: </b> @Model.subject </p>
+                    <hr />             
+                    <p><b>message: </b> @Model.message </p>
+                </div>
+                <a class="btn btn-success" asp-page="\Contact">More info  </a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+<!--home sec starts-->
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--aos js function-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+<!--Js-->
+<script src="site.js"></script>
+
+

@@ -1,0 +1,86 @@
+﻿@page
+@model Adesharp.Pages.SignupModel
+@{
+}
+
+<body>
+
+    <section class="home" id="home">
+        
+        <div class="container">
+            
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+                
+                <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                    <img src="./images/ff1.jpg" alt="">
+                </div>
+
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+
+                    <h2>Log in here</h2>
+
+                    <h3 style="color: red;">@Model.error</h3>
+                    <h3 style="color: red;">@Model.profileError</h3>
+                    <h3 style="color: green;">@Model.outMessage</h3>
+
+                    <div id="logform" data-aos="fade-up">
+                        <form action="" method="post" class="col-md-10">
+                            <p><input type="email" asp-for="user.email" placeholder="Email" required /></p>
+                            <p><input type="password" asp-for="user.password" placeholder="Password" required /></p>
+                            <input type="hidden" value="login" asp-for="user.type" />
+                            <p><input class="btn btn-success" name="" id="" type="submit" value="CLICK TO LOGIN" /></p>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">           
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+
+
+                    <h2>Sign up here</h2>
+
+                    <div id="signform" data-aos="fade-up">
+                        <form action="" method="post" class="col-md-10">
+
+                            <input type="hidden" value="signup" asp-for="user.type" />
+                            <p><input type="text" asp-for="user.fname" placeholder="First name" required /></p>
+                            <p><input type="text" asp-for="user.lname" placeholder="Last name" required /></p>
+                            <p><input type="email" asp-for="user.email" placeholder="Enter email" required /></p>
+                            <p><input type="password" asp-for="user.password" placeholder="Password" required /></p>
+                            <p><input class="btn btn-success" name="" id="" type="submit" value="SIGN IN HERE" /></p>
+
+                        </form>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 pr-md-5" data-aos="fade-right">
+                    <img src="./images/ff3.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--home sec starts-->
+    <!--jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--aos js function-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+    <!--Js-->
+    <script src="site.js"></script>
+
+
+
+
+</body>

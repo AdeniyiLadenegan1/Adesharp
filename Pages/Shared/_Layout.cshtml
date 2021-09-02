@@ -1,0 +1,162 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AdeSharp</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/site.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+    <!--cdn bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap-grid.min.css">
+
+    <!--font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--magnific popup css link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
+
+    <!--style-->
+    @*<link rel="stylesheet" href="site.css">*@
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+
+                <a href="#" class="logo"> <span>FIRE</span>FIGHTER<span>WO</span>RLD.</a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="/Index">home</a></li>
+                        <li><a href="/Fire">fire</a></li>
+                        <li><a href="/Tools">tools</a></li>
+                        <li><a href="/Emergency">emergency</a></li>
+                        <li><a href="/Contact">contact</a></li>
+                        <li><a href="/Training">training</a></li>
+                        <li><a href="/Signup">signup</a></li>
+                        <li><a href="/Profile">profile</a></li>
+
+                    </ul>
+                </nav>
+
+                <div class="fas fa-bars"></div>
+
+
+
+
+                <a class="navbar-brand" asp-area="" asp-page="/Index"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+
+                </button>
+
+
+               
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+
+
+    <section class="footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4" data-aos="zoom-in">
+
+                    <a href="#" class="logo"><span>OUR</span> LEGACY</a>
+                    <p>
+                        We understand the language of fire.
+                        Not only have we been around for over two centuries,
+                        We pride ourselves as number one in the fire business.
+
+                        The level of experience, professionalism and courage we
+                        exhibit is second to none. For many years, our watchword 
+                        has been; 
+                        COURAGE IN THE LINE OF FEAR!!!
+                        
+                    </p>
+
+                </div>
+
+                <div class="col-md-4 text-center" data-aos="fade-left">
+                    <h3>links</h3>
+                    <a href="/Index">home</a>
+                    <a href="/Fire">fire</a>
+                    <a href="/Tools">tools</a>
+                    <a href="/Emergency">emergency</a>
+                    <a href="/Contact">contact</a>
+                    <a href="/Signup">signup</a>
+                    <a href="/Profile">profile</a>
+                    <a href="/Training">training</a>
+                </div>
+
+
+                <div class="col-md-4 text-center" data-aos="fade-right">
+                    <h3>share</h3>
+                    <a href="https://twitter.com/Toronto_Fire" target="_blank"> twitter </a>
+                    <a href="https://www.facebook.com/TorontoFireServices/" target="_blank">facebook</a>
+                    <a href="https://ca.linkedin.com/company/toronto-fire-services">linkedin</a>
+                    <a href="https://www.instagram.com/torontofireservices/">instagram</a>
+                    <a href="https://www.youtube.com/c/torontofireservices">youtube</a>
+                    <a href="http://www.toronto.ca/fire">website</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1 class="credit text-center mx-auto">Copyright &copy; <span> Adeniyi ladenegan </span> FIREFIGHTER WORLD. All rights Reserved!</h1>
+
+
+    </section>
+
+
+
+
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2021 - AdeSharp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            </div>
+        </footer>*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+    AOS.init({
+            duration: 2500,
+            delay: 400
+        })</script>
+
+</body>
+</html>

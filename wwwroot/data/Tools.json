@@ -1,0 +1,73 @@
+﻿[
+  {
+    "equipment": "hose",
+    "sizes": "50cm, 100cm, 200cm, 500cm",
+    "model": "mn25, mn100, mn200, mn300",
+    "price": "$150, $200, $400, $500",
+    "country": "Canada",
+    "year": "2020",
+    "guarantee": "25years",
+    "description": "These hoses are designed to meet either household or industrial usage",
+
+    "website": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.qrfs.com%2Fblog%2F204-fire-hose-adapters-and-fittings-the-definitive-guide%2F&psig=AOvVaw1DVjaT8Ql2aIRNCN6vYQ5n&ust=1625871720844000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOivi6XK1PECFQAAAAAdAAAAABAD,"
+  },
+    {
+    
+      "equipment": "Axe",
+      "sizes": "50cm, 100cm, 200cm, 500cm",
+      "model": "Ax2, Ax3, Ax20, Ax45",
+      "price": "$100, $250, $400, $600",
+      "country": "USA",
+      "year": "2021",
+      "guarantee": "20years",
+      "description": "Powerful Axes with wooden handles for any kind of usage",
+      "website": "https://www.grainger.ca/en/product/CANADIAN-AXE-2-25LBS-28IN-FG-HANDLE/p/GARCAN22528FG?analytics=RecommendationZones&cm_sp=IDP-_-CAV-_-TR-_-PR-_-PLA-NA-_-EN&cm_mmc=PPC:+Google+PLA"
+
+
+
+    },
+    {
+      "equipment": "Firetruck",
+      "sizes": "50cm, 100cm, 200cm, 500cm",
+      "model": "mn25, mn100, mn200, mn300",
+      "price": "$150, $200, $400, $500",
+      "country": "Canada",
+      "year": "2020",
+      "guarantee": "25years",
+      "description": "These hoses are designed to meet either household or industrial usage",
+      "website": "https://mcbfire.com/apparatus/options/scene-commander/"
+    },
+    {
+      "equipment": "hat",
+      "sizes": "50cm, 100cm, 200cm, 500cm",
+      "model": "mn25, mn100, mn200, mn300",
+      "price": "$150, $200, $400, $500",
+      "country": "China",
+      "year": "2019",
+      "guarantee": "35years",
+      "description": "Great equipment for a great team. hoses are designed to meet either household or industrial usage",
+      "website": "https://www.grainger.ca/en/product/HELMET-FIREFIGHTER-YELLOW-W-4IN-VIS/p/BULLTXYL?analytics=RecommendationZones&cm_sp=IDP-_-CAV-_-TR-_-PR-_-PLA-NA-_-EN&cm_mmc=PPC:+Google+PLA"
+    },
+    {
+      "equipment": "uniforms",
+      "sizes": "50cm, 100cm, 200cm, 500cm",
+      "model": "mn25, mn100, mn200, mn300",
+      "price": "$150, $200, $400, $500",
+      "country": "Canada",
+      "year": "2020",
+      "guarantee": "25years",
+      "description": "These hoses are designed to meet either household or industrial usage",
+      "website": "https://www.google.com/aclk?sa=l&ai=DChcSEwiilIewzNTxAhWJ_8gKHUSkBB0YABAVGgJxdQ&sig=AOD64_19PaakhuB6TMxylvo3VNgF-qZvwA&ctype=5&q=&ved=0ahUKEwjrqICwzNTxAhXKGc0KHf0rA2QQww8Ilwc&adurl="
+    },
+    {
+      "equipment": "ladders",
+      "sizes": "50cm, 100cm, 200cm, 500cm",
+      "model": "mn25, mn100, mn200, mn300",
+      "price": "$150, $200, $400, $500",
+      "country": "Canada",
+      "year": "2020",
+      "guarantee": "25years",
+      "description": "These hoses are designed to meet either household or industrial usage",
+      "website": "https://www.thefirestore.com/store/category.aspx/categoryId/497/Firefighter-Ladders/"
+    }
+]
